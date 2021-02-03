@@ -1,0 +1,127 @@
+/*Features*/
+section {
+    background-image: url("contact_wallpaper.jpg");
+    background-size: 100% 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+/*Text sizes*/
+.lg{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.xl {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.row {
+    color: white;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: darkgreen;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: darkgreen;
+    opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: darkgreen;
+    opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: darkgreen;
+}
+
+
+/*Full Width Input Fields*/
+input[type=text], textarea[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+}
+
+    input[type=text]:focus, textarea[type=text] {
+        background-color: white;
+        border-radius: 5px;
+        outline: none;
+    }
+
+input[type=submit] {
+    width: 100%;
+    background-color: #454955; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #002244;
+    font-weight: bold;
+    color: #3f7d20;
+}
+
+.col-6 h3,
+.col-6 h4{
+    color: #f3eff5;
+    text-align: center;
+}
+
+.col-6 i{
+    margin-right: 8px;
+    color: darkgreen;
+    font-size: 30px;
+}
+.col-6 a{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+.col-6 {
+    color: #f3eff5;
+    vertical-align: central;
+    align-items: center;
+}
+
+textarea {
+    height: 200px;
+}
+
+/*Mobile*/
+@media(max-width: 500px) {
+    .col-6 {
+        width: 100%;
+    }
+    .col-6 i{
+        text-align: left;
+        font-size: 20px;
+    }
+    .col-6 a{
+        text-align: left;
+        color: red;
+        font-size: 15px;
+    }
+}

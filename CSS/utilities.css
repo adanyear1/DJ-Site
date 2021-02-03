@@ -1,0 +1,54 @@
+﻿/*Utilities*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+/*Background & Primary Color*/
+.bg-primary {
+    background-color: #72b01d;
+    color: white;
+}
+
+.bg-footer {
+    background-color: var(--dark-color);
+}
+
+.bg-footer a{
+    background-color: var(--dark-color);
+    color: white;
+    padding: 0 12px;
+}
+
+.bg-dark a{
+    color: white;
+}
+
+/*Grid Formatting*/
+.container-fluid {
+    margin: 0 auto;
+    padding: 0 60px;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*Padding*/
+.py-5{
+    padding: 4rem 0;
+}
